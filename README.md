@@ -1,2 +1,1 @@
-# Flutter Facebook Responsive UI Mobile Version
-Halfway point in tutorial
+# Flutter Facebook Responsive UI
