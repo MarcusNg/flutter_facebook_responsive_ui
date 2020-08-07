@@ -1,6 +1,6 @@
-# Flutter Facebook Responsive UI
+# Flutter Facebook Responsive UI Tutorial
 
-[YouTube Tutorial](https://youtube.com/MarcusNg)
+[YouTube Tutorial](https://youtu.be/HvLb5gdUfDE)
 
 ![Mobile Screenshot](screenshots/facebook-mobile.png)
 
