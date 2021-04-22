@@ -55,17 +55,17 @@ class Rooms extends StatelessWidget {
 class _CreateRoomButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return OutlineButton(
+    return OutlinedButton(
       onPressed: () => print('Create Room'),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(30.0),
-      ),
-      color: Colors.white,
-      borderSide: BorderSide(
-        width: 3.0,
-        color: Colors.blueAccent[100],
-      ),
-      textColor: Palette.facebookBlue,
+      style: OutlinedButton.styleFrom(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(30.0),
+          ),
+          side: BorderSide(
+            width: 3.0,
+            color: Colors.blueAccent[100],
+          ),
+          backgroundColor: Colors.white),
       child: Row(
         children: [
           // ShaderMask(
@@ -83,7 +83,10 @@ class _CreateRoomButton extends StatelessWidget {
             color: Colors.purple,
           ),
           const SizedBox(width: 4.0),
-          Text('Create\nRoom'),
+          Text(
+            'Create\nRoom',
+            style: TextStyle(color: Palette.facebookBlue),
+          ),
         ],
       ),
     );
