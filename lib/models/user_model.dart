@@ -1,3 +1,4 @@
+// ignore: unused_import
 import 'package:meta/meta.dart';
 
 class User {
@@ -5,7 +6,7 @@ class User {
   final String imageUrl;
 
   const User({
-    @required this.name,
-    @required this.imageUrl,
+    required this.name,
+    required this.imageUrl,
   });
 }
