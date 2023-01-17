@@ -43,7 +43,7 @@ class CreatePostContainer extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  FlatButton.icon(
+                  ElevatedButton.icon(
                     onPressed: () => print('Live'),
                     icon: const Icon(
                       Icons.videocam,
@@ -52,7 +52,7 @@ class CreatePostContainer extends StatelessWidget {
                     label: Text('Live'),
                   ),
                   const VerticalDivider(width: 8.0),
-                  FlatButton.icon(
+                  ElevatedButton.icon(
                     onPressed: () => print('Photo'),
                     icon: const Icon(
                       Icons.photo_library,
@@ -61,7 +61,7 @@ class CreatePostContainer extends StatelessWidget {
                     label: Text('Photo'),
                   ),
                   const VerticalDivider(width: 8.0),
-                  FlatButton.icon(
+                  ElevatedButton.icon(
                     onPressed: () => print('Room'),
                     icon: const Icon(
                       Icons.video_call,
